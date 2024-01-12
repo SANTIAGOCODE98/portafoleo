@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    border-right:solid #589AC0 4px;
+    border-bottom: solid #589AC0 4px;
+    border-left: solid #589AC0 4px;
+}
+body header{
+    background: #92BFBF;
+    height: 60px;
+}
+#parte_superior{
+    display: flex;
+    justify-content:space-between;
+    color: black;
+}
+#parte_superior h1{
+    margin-top: 8px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-top: auto;
+}
+
+.dropbtn {
+    background-color: #92BFBF ;
+    color: black;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: max-content;
+}
+
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-content button:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #92BFBF;
+}
+
+#centro h1{
+    font-size: 48px;
+    margin: auto;
+}
+.nombre{
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    background-color: white;
+    height: 150px;
+    align-items: center;
+    border: solid 2px #92BFBF;
+    border-radius: 2px;
+    width: auto;
+}
+#foto{
+    display: contents;
+}
+
+#foto img{
+    max-width: 12%;
+    max-height: 98%;
+    margin-top: 3px;
+    margin-left: 86px;
+    border-radius: 32%;
+}
+#nombre_titulo{
+    margin-right: 48px;
+    max-width: 24%;
+}
+#lenguaje{
+    display: inline-flex;
+}
+
+#tamano_boton {
+    width: 48px;
+    height: 48px;
+    margin-top: 6px;
+    background-color: #92BFBF ;
+    border: none;
+}
+#tamano_boton img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 220px;
+}
+#contenidoi p{
+    background-color: #92BFBF ;
+    max-width: 28%;
+    max-height: 72%;
+    font-size: 20px;
+}
+#contenidod p{
+    background-color: #92BFBF ;
+    max-width: 28%;
+    max-height: 72%;
+    font-size: 20px;
+}
+
+#redes{
+    background: #92BFBF ;
+}
