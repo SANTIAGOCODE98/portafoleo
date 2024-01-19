@@ -134,3 +134,121 @@ body header{
 #redes{
     background: #92BFBF ;
 }
+@media (max-width:500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        border-right:solid #589AC0 4px;
+        border-bottom: solid #589AC0 4px;
+        border-left: solid #589AC0 4px;
+    }
+    body header{
+        background: #92BFBF;
+        height: 60px;
+    }
+    .dropdownResponsive {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .dropbtnResponsive {
+        background-color: #92BFBF;
+        color: black;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin-top: 12px;
+    }
+    
+    .dropdown-contentResponsive {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        width: auto;
+        font-size: 20px;
+    }
+    
+    .dropdown-contentResponsive button {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #fff;
+        border: none;
+        width: 70%;
+        text-align: left;
+    }
+    
+    .dropdown-contentResponsive button:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdownResponsive:hover .dropdown-contentResponsive {
+        display: block;
+    }
+    
+    .dropdownResponsive:hover .dropbtnResponsive {
+        background-color: #2980b9;
+    }
+    #lenguaje{
+        display: none;
+    }
+    #centro h1{
+        font-size: 28px;
+        margin-top: 16px;
+    }
+    .dropbtn{
+        font-size: 12px;
+    }
+    #tamano_boton {
+        width: 100%;
+        height: 50px;
+        margin-top: auto;
+        background-color: #92BFBF ;
+        border: none;
+    }
+    .nombre p{
+        width: 100%;
+        font-size: 9px;
+        text-align: center;
+        margin-left: 24px;
+    }
+    .nombre h2{
+        font-size: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #foto img {
+        max-width: 24%;
+        max-height: 98%;
+        margin-top: 3px;
+        margin-left: 16px;
+        border-radius: 32%;}
+    .contenido{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        height: fit-content;
+    }
+    .contenido img{
+        margin-top: 6%;
+        height: fit-content;
+        width: 45%;
+    }
+    #contenidoi p{
+        height: fit-content;
+        width: 50%;
+        font-size: 12px;
+        text-align: center; 
+    }
+    #contenidod p{
+        height: fit-content;
+        width: 50%;
+        font-size: 12px;
+        text-align: center; 
+    }
+}
