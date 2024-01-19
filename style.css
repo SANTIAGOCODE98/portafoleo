@@ -66,6 +66,9 @@ body header{
 .dropdown:hover .dropbtn {
     background-color: #92BFBF;
 }
+.dropdownResponsive{
+    display: none;
+}
 
 #centro h1{
     font-size: 48px;
