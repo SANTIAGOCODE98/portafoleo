@@ -17,6 +17,16 @@ body header{
 #parte_superior h1{
     margin-top: 8px;
 }
+#hojadevida a{
+    text-decoration: none;
+    color: #589AC0;
+    font-size: 85%;
+}
+#vinculos a{
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
 .dropdown {
     display: inline-block;
     position: relative;
@@ -42,11 +52,11 @@ body header{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     max-height: max-content;
+    
 }
 
 .dropdown-content button {
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
     background-color: #fff;
@@ -67,7 +77,7 @@ body header{
     background-color: #92BFBF;
 }
 .dropdownResponsive{
-    display: none;
+        display: none;
 }
 
 #centro h1{
@@ -85,6 +95,15 @@ body header{
     border-radius: 2px;
     width: auto;
 }
+.nombre h2{
+    text-align: center;
+}
+.nombre p{
+    font-family: cursive;
+    font-size: 90%;
+    text-align: center;
+    width: 120%
+}
 #foto{
     display: contents;
 }
@@ -93,11 +112,11 @@ body header{
     max-width: 12%;
     max-height: 98%;
     margin-top: 3px;
-    margin-left: 86px;
+    margin-left: 6%;
     border-radius: 32%;
 }
 #nombre_titulo{
-    margin-right: 48px;
+    margin-right: 10%;
     max-width: 24%;
 }
 #lenguaje{
@@ -119,23 +138,37 @@ body header{
     display: flex;
     justify-content: space-around;
     background-color: white;
-    height: 220px;
+    height: 230px;
 }
 #contenidoi p{
+    font-family: cursive;
     background-color: #92BFBF ;
-    max-width: 28%;
-    max-height: 72%;
-    font-size: 20px;
+    max-width: 50%;
+    max-height: 100%;
+    font-size: 116%;
+    text-align: center;
+    height: fit-content;
+    width: 36%;
 }
 #contenidod p{
+    font-family: cursive;
     background-color: #92BFBF ;
-    max-width: 28%;
-    max-height: 72%;
-    font-size: 20px;
+    max-width: 50%;
+    max-height: 90%;
+    font-size: 116%;
+    text-align: center;
+    height: fit-content;
+    width: 36%;
+
+}
+#contenidoi img{
+    max-width:50%;
+    max-height:90%
 }
 
 #redes{
-    background: #92BFBF ;
+    background-color: #92BFBF ;
+    height: 20%;
 }
 @media (max-width:500px) {
     body{
@@ -199,7 +232,6 @@ body header{
     }
     #lenguaje{
         display: none;
-        visibility: hidden;
     }
     #centro h1{
         font-size: 28px;
@@ -217,9 +249,10 @@ body header{
     }
     .nombre p{
         width: 100%;
-        font-size: 9px;
+        font-size: 70%;
         text-align: center;
         margin-left: 24px;
+        font-family: cursive;
     }
     .nombre h2{
         font-size: 20px;
@@ -239,20 +272,24 @@ body header{
         height: fit-content;
     }
     .contenido img{
-        margin-top: 6%;
+        margin-top: 13%;
         height: fit-content;
         width: 45%;
     }
     #contenidoi p{
         height: fit-content;
         width: 50%;
-        font-size: 12px;
+        font-size: 100%;
         text-align: center; 
+        margin-top: 13%;
+        font-family: cursive;
     }
     #contenidod p{
         height: fit-content;
         width: 50%;
-        font-size: 12px;
+        font-size: 100%;
         text-align: center; 
+        margin-top: 13%;
+        font-family: cursive;
     }
 }
